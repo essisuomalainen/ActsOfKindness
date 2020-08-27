@@ -1,0 +1,18 @@
+.headerWrapper {
+    position: absolute;
+    width: 254px;
+    height: 106px;
+    left: 48px;
+    top: 126px;
+}
+
+.header {
+
+font-family: Rockwell;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}

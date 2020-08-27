@@ -1,0 +1,11 @@
+
+.yourselfWrapper{
+    position: absolute;
+    width: 304px;
+    height: 136px;
+    left: 35px;
+    top: 587px;
+    
+    background: #C4C4C4;
+    border-radius: 11px;
+}
