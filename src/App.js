@@ -1,18 +1,19 @@
 import React from 'react';
-import './App.css';
+import style from './App.module.css';
 import Header from './components/Header/Header';
-import Others from './components/Others/Others';
-import Yourself from './components/Yourself/Yourself';
-import Environment from './components/Environment/Environment';
+import Act from './components/Act/Act';
 
 function App() {
   return (
-    <div className="App">
+    <div className={style.app}>
+      <div className={style.header}>
       <Header />
-      <Others />
-      <Environment />
-      <Yourself />
-      
+      </div>
+      <div className={style.actionsWrapper}>
+      <Act name="Environment"/>
+      <Act name="Others"/>
+      <Act name="Myself" />
+      </div>
     </div>
   );
 }

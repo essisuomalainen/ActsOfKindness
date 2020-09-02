@@ -1,0 +1,19 @@
+.actWrapper {
+    width: 304px;
+    height: 136px;
+    background: #C4C4C4;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+    }
+
+.name {
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 40px;
+    color: #4F4F4F;
+    }
