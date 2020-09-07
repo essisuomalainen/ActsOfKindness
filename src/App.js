@@ -27,7 +27,7 @@ function App() {
      <div onClick={() => clickHandler()}><Act name="Others" /></div> 
      <div onClick={() => clickHandler()}><Act name="Myself" /></div> 
       </div>
-      <div className={style.Quote}>{showCarousel ? <Quote /> : null}</div>
+      <div className={style.quote}>{showCarousel ? <Quote /> : null}</div>
     </div>
   );
 }

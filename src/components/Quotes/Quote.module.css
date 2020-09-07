@@ -2,27 +2,24 @@
     width: 100vw;
     height: 100vh;
     z-index: 22;
-    background-color: grey;
+    background: linear-gradient(147.15deg, #E8CAC6 18.73%, #E0D7D2 80.09%);
+    margin: 0;
+    display: grid;
+    grid-template-columns: 15vw 1fr 15vw;
+    grid-template-rows: 10vh 20vh 50vh 15vh;
 }
-
-.quote {
-    position: absolute;
-    width: 255px;
-    height: 422px;
-    left: 56px;
-    top: 205px;
-
+.quoteWrapper {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
     background: #C4C4C4;
     border-radius: 11px;
+    padding: 15px;
 }
 
 .quoteHeader {
-    position: absolute;
-width: 177px;
-height: 62px;
-left: 112px;
-top: 242px;
-
 font-family: Rockwell;
 font-style: normal;
 font-weight: normal;
@@ -33,11 +30,6 @@ color: #4F4F4F;
 }
 
 .quoteText {
-    position: absolute;
-width: 215px;
-height: 259px;
-left: 77px;
-top: 327px;
 
 font-family: Roboto;
 font-style: normal;
@@ -52,11 +44,13 @@ color: #000000;
 }
 
 .timer {
-    position: absolute;
+grid-column-start: 2;
+grid-row-start: 2;
+grid-row-end: 2;
+align-self: center;
+justify-self: center;
 width: 112px;
 height: 57px;
-left: 131px;
-top: 99px;
 
 font-family: Overlock SC;
 font-style: normal;
@@ -68,4 +62,14 @@ line-height: 174%;
 letter-spacing: 0.125em;
 
 color: #000000;
+}
+
+.arrowBack {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 50px;
+    width: 30px;
+    margin: 0.5em;
+
 }
