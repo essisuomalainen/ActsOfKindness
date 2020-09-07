@@ -1,0 +1,71 @@
+.quoteBackground {
+    width: 100vw;
+    height: 100vh;
+    z-index: 22;
+    background-color: grey;
+}
+
+.quote {
+    position: absolute;
+    width: 255px;
+    height: 422px;
+    left: 56px;
+    top: 205px;
+
+    background: #C4C4C4;
+    border-radius: 11px;
+}
+
+.quoteHeader {
+    position: absolute;
+width: 177px;
+height: 62px;
+left: 112px;
+top: 242px;
+
+font-family: Rockwell;
+font-style: normal;
+font-weight: normal;
+font-size: 33px;
+line-height: 40px;
+
+color: #4F4F4F;
+}
+
+.quoteText {
+    position: absolute;
+width: 215px;
+height: 259px;
+left: 77px;
+top: 327px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 158.69%;
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.timer {
+    position: absolute;
+width: 112px;
+height: 57px;
+left: 131px;
+top: 99px;
+
+font-family: Overlock SC;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 174%;
+/* or 42px */
+
+letter-spacing: 0.125em;
+
+color: #000000;
+}
