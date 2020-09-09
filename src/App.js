@@ -9,6 +9,7 @@ import Quote from './components/Quotes/Quote';
 
 function App() {
 
+  // Onclick functionality when the user selects a option
   const [showCarousel, setShowCarousel] = useState(false);
 
 	const clickHandler = () => {
