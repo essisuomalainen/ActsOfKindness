@@ -1,41 +1,49 @@
 {
         "quotes": [
             {
+                "id": "1",
                 "category": "environment",
                 "text": "Pick up trash outside"
                 
             },
             {
+                "id": "2",
                 "category": "environment",
                 "text": "Pick up trash outside"
                 
             },
             {
+                "id": "3",
                 "category": "environment",
                 "text": "Pick up trash outside"
                 
             },
             {
+                "id": "4",
                 "category": "environment",
                 "text": "Pick up trash outside"
                 
             },
             {
+                "id": "5",
                 "category": "others",
                 "text": "Smile to a stranger"
                 
             },
             {
+                "id": "6",
                 "category": "others",
                 "text": "Smile to a stranger"
                 
             },
             {
+                "id": "7",
                 "category": "others",
                 "text": "Smile to a stranger"
                 
             },
             {
+                "id": "8",
                 "category": "others",
                 "text": "Smile to a stranger"
                 
