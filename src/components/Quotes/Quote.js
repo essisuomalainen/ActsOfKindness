@@ -63,7 +63,7 @@ const setArray = (array) => {
             alt="back"
            onClick={Clickhandler }
       />
-            <div className={style.timer}><Timer /></div>
+            <div className={style.timer}><p className={style.timerText}>Complete before the time runs out!</p><Timer /></div>
         <div className={style.quoteWrapper}>
             <h2 className={style.quoteHeader}>{actValues[randomNumber].category}</h2>
     <p className={style.quoteText}>{actValues[randomNumber].quote}</p>
