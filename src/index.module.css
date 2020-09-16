@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Grandstander', cursive;
+	src: url('./assets/Grandstander-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+:root {
+  --p-font: 'Grandstander';
+
+}
