@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Act from './components/Act/Act';
 import Quote from './components/Quotes/Quote';
 import { BrowserRouter } from 'react-router-dom';
+import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 
 export let actName;
 
@@ -36,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default LoadingScreen(App);
