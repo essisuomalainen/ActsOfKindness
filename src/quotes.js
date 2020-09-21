@@ -47,6 +47,11 @@ const quotes = {
         category: 'others',
         quote: "Check in with someone."
     },
+    o8 : {
+        category: 'others',
+        quote: "Be honest when interacting with others."
+    },
+    
     m1: {
         category: 'myself',
         quote: "Let love guide your decisions"

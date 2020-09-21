@@ -2,8 +2,7 @@
     width: 100vw;
     height: 100vh;
     z-index: 22;
-    background: linear-gradient(147.15deg, #E8CAC6 18.73%, #E0D7D2 80.09%);
-    margin: 0;
+    background: #302C2C;
     display: grid;
     grid-template-columns: 10vw 1fr 10vw;
     grid-template-rows: 10vh 20vh 50vh 15vh;
@@ -14,9 +13,11 @@
     grid-row-end: 3;
     display: flex;
     flex-direction: column;
-    background: #C4C4C4;
+   
     border-radius: 11px;
     padding: 15px;
+    background: linear-gradient(308.89deg, #9A3CC4 -7.35%, #C631C8 64.89%);
+    box-shadow: 0px 16px 19px 5px rgba(0, 0, 0, 0.13), 0px 28px 25px rgba(138, 3, 3, 0.1);
 }
 
 .quoteHeader {
@@ -26,7 +27,7 @@ font-weight: normal;
 font-size: 33px;
 line-height: 40px;
 text-transform: capitalize;
-color: #4F4F4F;
+color: #F9EFEF
 }
 
 .quoteText {
@@ -39,7 +40,7 @@ line-height: 158.69%;
 
 text-align: center;
 
-color: #000000;
+color: #F9EFEF;
 
 }
 
@@ -49,6 +50,7 @@ grid-row-start: 2;
 grid-row-end: 2;
 align-self: center;
 justify-self: center;
+color: #F9EFEF;
 }
 
 .timer {
@@ -57,6 +59,7 @@ grid-row-start: 2;
 grid-row-end: 2;
 align-self: center;
 justify-self: center;
+color: #F9EFEF;
 
 }
 

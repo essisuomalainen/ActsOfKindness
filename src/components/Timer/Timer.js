@@ -14,7 +14,7 @@ const Timer = () => {
     const startTimer = () => {
   //useEffect( () => {
     //add24Hours = new Date().setHours(new Date().getHours() + 24);
-        const countDownDate = new Date('September 17, 2020 00:00:00').getTime();
+        const countDownDate = new Date('September 19, 2020 00:00:00').getTime();
       //let interval;
       //const startTime = '24:00:00';
       interval = setInterval(() => {

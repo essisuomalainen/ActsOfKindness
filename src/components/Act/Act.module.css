@@ -1,7 +1,8 @@
 .actWrapper {
     width: 100%;
     height: 100%;
-    background: #B69595;
+    background: linear-gradient(308.89deg, #9A3CC4 -7.35%, #C631C8 64.89%);
+    box-shadow: 0px 16px 19px 5px rgba(0, 0, 0, 0.13), 0px 28px 25px rgba(138, 3, 3, 0.1);
     border-radius: 11px;
     display: flex;
     justify-content: center;
@@ -16,7 +17,8 @@
     font-weight: normal;
     font-size: 33px;
     line-height: 40px;
-    color: #4F4F4F;
+    color: #E9E0E0;
     text-transform: uppercase;
     
     }
+
