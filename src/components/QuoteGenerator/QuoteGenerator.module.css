@@ -1,0 +1,25 @@
+
+
+.quoteHeader {
+font-family: 'Josefin Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 33px;
+line-height: 40px;
+text-transform: capitalize;
+color: #5F474F;
+}
+
+.quoteText {
+
+font-family: 'Josefin Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 158.69%;
+
+text-align: center;
+
+color: #302C2C;
+
+}

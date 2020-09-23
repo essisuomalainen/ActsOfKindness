@@ -33,13 +33,13 @@ function LoadingScreen(WrappedComponent) {
         loading: true
       };
     }
-    //timeout is set to 2.5sec so the screen stays up for a short time, after that loading is set to false
+    //timeout is set to 5sec so the screen stays up for a short time, after that loading is set to false
     async componentDidMount() {
       setTimeout(() => {
         this.setState({
           loading: false
         });
-      }, 5500);
+      }, 5000);
     }
 
     render() {

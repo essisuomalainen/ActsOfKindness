@@ -72,7 +72,7 @@ const quotes = {
         category: 'myself',
         quote: "Don't complain for an entire day."
     },
-    m3: {
+    m6: {
         category: 'myself',
         quote: "Take a walk in the nature."
     }

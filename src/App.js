@@ -10,14 +10,25 @@ import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 export let actName;
 
 function App() {
+  const [endTime, setEndTime ] = useState();
+  const [timeLeft, setTimeLeft] = useState(); 
 
   // Onclick functionality when the user selects a option
   const [showCarousel, setShowCarousel] = useState(false);
+  const [showTimer, setShowTimer] = useState(false);
 
 	const clickHandler = (name) => {
     actName = name.toString().toLowerCase();
-		setShowCarousel(!showCarousel);
+    setShowCarousel(!showCarousel);
+    setShowTimer(!showTimer);
+    const end = new Date();
+    end.setHours(new Date().getHours() + 4)
+    setEndTime(end.getTime());
+    
   };
+
+ 
+
   
   
   return (
@@ -28,12 +39,12 @@ function App() {
       </div>
 
       <div className={style.actionsWrapper}>
-     <div className={style.environment} onClick={() => clickHandler('Environment')} ><Act name="Environment" />
+      <div className={style.environment} onClick={() => clickHandler('Environment')} ><Act name="Environment" />
    </div> 
      <div className={style.others} onClick={() => clickHandler('Others')}><Act name="Others" /></div> 
      <div className={style.myself} onClick={() => clickHandler('Myself')}><Act name="Myself" /></div> 
       </div>
-      <div className={style.quote}>{showCarousel ? <Quote clickHandler={clickHandler}/> : null}</div>
+      <div className={style.quote}>{showCarousel ? <Quote endTime={endTime} setEndTime={setEndTime} timeLeft={timeLeft} setTimeLeft={setTimeLeft} clickHandler={clickHandler}/> : null}</div>
     </div>
     </BrowserRouter>
   );

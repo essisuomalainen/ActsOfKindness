@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
- * {
+* {
     box-sizing: border-box;
 }
 
@@ -7,8 +9,8 @@ body {
   margin: 0;
   text-align: center;
   overflow: hidden;
-  background: #242726;
-  font-family: var(--p-font);
+  background: #5F474F;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .app {
@@ -26,7 +28,8 @@ body {
   grid-row-start: 2;
   grid-row-end: 2;
 	align-self: center;
-	justify-self: center;
+  justify-self: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .actionsWrapper {
@@ -38,26 +41,23 @@ body {
 }
 
  .environment {
-  background: linear-gradient(308.89deg, #9A3CC4 -7.35%, #C631C8 64.89%);
-  box-shadow: 0px 16px 19px 5px rgba(0, 0, 0, 0.13), 0px 28px 25px rgba(138, 3, 3, 0.1);
+  background: #7ABCAC;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.27);
   border-radius: 11px;
-  background-image: url(../src/assets/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
   background-size: cover;
   
 
 }
 
 .others {
-  background: linear-gradient(308.89deg, #9A3CC4 -7.35%, #C631C8 64.89%);
-  box-shadow: 0px 16px 19px 5px rgba(0, 0, 0, 0.13), 0px 28px 25px rgba(138, 3, 3, 0.1);
+  background: #E8E8B6;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.27);
   border-radius: 11px;
-  background-image: url(../src/assets/helena-lopes-PGnqT0rXWLs-unsplash.jpg);
   background-size: cover;
 }
 
 .myself {
-  background: linear-gradient(308.89deg, #9A3CC4 -7.35%, #C631C8 64.89%);
-  box-shadow: 0px 16px 19px 5px rgba(0, 0, 0, 0.13), 0px 28px 25px rgba(138, 3, 3, 0.1);
+  background: #F1B04E;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.27);
   border-radius: 11px;
- background-image: url(../src/assets/jared-rice-NTyBbu66_SI-unsplash.jpg);
 } 
