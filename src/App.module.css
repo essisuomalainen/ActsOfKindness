@@ -37,7 +37,8 @@ body {
   grid-row-start: 3;
   grid-row-end: auto;
 	align-self: center;
-	justify-self: center;
+  justify-self: center;
+  width: 100%;
 }
 
  .environment {
