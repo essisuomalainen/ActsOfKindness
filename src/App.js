@@ -4,49 +4,46 @@ import style from './App.module.css';
 import Header from './components/Header/Header';
 import Act from './components/Act/Act';
 import Quote from './components/Quotes/Quote';
-import { BrowserRouter } from 'react-router-dom';
 import LoadingScreen from './components/LoadingScreen/LoadingScreen';
+import Timer from '../src/components/Timer/Timer';
+
 
 export let actName;
 
 function App() {
-  const [endTime, setEndTime ] = useState();
-  const [timeLeft, setTimeLeft] = useState(); 
-
+  
   // Onclick functionality when the user selects a option
-  const [showCarousel, setShowCarousel] = useState(false);
-  const [showTimer, setShowTimer] = useState(false);
+  const [showQuote, setShowQuote] = useState(false);
+  
 
 	const clickHandler = (name) => {
     actName = name.toString().toLowerCase();
-    setShowCarousel(!showCarousel);
-    setShowTimer(!showTimer);
-    const end = new Date();
-    end.setHours(new Date().getHours() + 4)
-    setEndTime(end.getTime());
-    
+    setShowQuote(!showQuote); 
   };
 
  
-
-  
   
   return (
-    <BrowserRouter>
+    
     <div className={style.app}>
       <div className={style.header}>
-      <Header />
+        <Header />
       </div>
 
       <div className={style.actionsWrapper}>
-      <div className={style.environment} onClick={() => clickHandler('Environment')} ><Act name="Environment" />
-   </div> 
-     <div className={style.others} onClick={() => clickHandler('Others')}><Act name="Others" /></div> 
-     <div className={style.myself} onClick={() => clickHandler('Myself')}><Act name="Myself" /></div> 
+        <div className={style.environment} onClick={() => clickHandler('Environment')} ><Act name="Environment" />
+        </div> 
+        <div className={style.others} onClick={() => clickHandler('Others')}><Act name="Others" /></div> 
+        <div className={style.myself} onClick={() => clickHandler('Myself')}><Act name="Myself" /></div> 
+        </div>
+      <div className={style.quote}>
+        {showQuote ? <Quote clickHandler={clickHandler} /> : null}
       </div>
-      <div className={style.quote}>{showCarousel ? <Quote endTime={endTime} setEndTime={setEndTime} timeLeft={timeLeft} setTimeLeft={setTimeLeft} clickHandler={clickHandler}/> : null}</div>
+      <div className={style.time}> 
+        {showQuote ? <Timer clickHandler={clickHandler}  /> : null }
+      </div>
     </div>
-    </BrowserRouter>
+   
   );
 }
 
