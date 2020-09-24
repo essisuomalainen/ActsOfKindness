@@ -5,7 +5,6 @@ const Header = () => {
     return (
         <div className={style.headerWrapper}>
             <h2 className={style.headerText}>Today I want to be kind to..</h2>
-
         </div>
     )
 }

@@ -19,9 +19,13 @@ const quotes = {
         category: 'environment',
         quote: "Shop second hand if you can."
     },
+    e6: {
+        category: 'environment',
+        quote: "Eat more plantbased foods."
+    },
     o1: {
         category: 'others',
-        quote: "Give a genuine compliment to someone."
+        quote: "Give a genuine compliment to someone. It could make their day."
     },
     o2: {
         category: 'others',
@@ -51,10 +55,21 @@ const quotes = {
         category: 'others',
         quote: "Be honest when interacting with others."
     },
-    
+    o9 : {
+        category: 'others',
+        quote: "Be a reason someone feels heard, seen and supported today."
+    },
+    o10 : {
+        category: 'others',
+        quote: "If you are feeling sick, stay home and take care of yourself before going out."
+    },
+    o11 : {
+        category: 'others',
+        quote: "Smile at someone… just because (even Mother Teresa said, “We shall never know all the good that a simple smile can do.”)."
+    },
     m1: {
         category: 'myself',
-        quote: "Let love guide your decisions"
+        quote: "Let love guide your decisions. You can always choose if you are guided by fear or love."
     },
     m2: {
         category: 'myself',
@@ -70,11 +85,15 @@ const quotes = {
     },
     m5: {
         category: 'myself',
-        quote: "Don't complain for an entire day."
+        quote: "Don't complain for an entire day, or at least four hours! See how you feel afterwards."
     },
     m6: {
         category: 'myself',
         quote: "Take a walk in the nature."
+    },
+    m7: {
+        category: 'myself',
+        quote: "Treat your body as a temple. Respect, love and care for it. Listen what it needs today."
     }
 
 }

@@ -12,19 +12,17 @@ let actValues = [];
 const QuoteGenerator = () => {
  //spread operator       
 actValues = [...quoteGenerator()];
-function quoteGenerator() {
-     
-    let pushedValues = [];
+
+function quoteGenerator() {    
+let pushedValues = [];
     for (const value of values) {
         if (value.category === actName) {
             pushedValues.push(value);
         }
     }
-    randomNumber = Math.floor((Math.random() * pushedValues.length) + 0);
-    return  pushedValues;
-    
+randomNumber = Math.floor((Math.random() * pushedValues.length) + 0);
+return  pushedValues;
 }
-
 
 return (
     <div className={style.quoteWrapper}>

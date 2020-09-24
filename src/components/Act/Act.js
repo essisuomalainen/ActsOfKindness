@@ -4,8 +4,7 @@ import style from './Act.module.css';
 const Act = (props) => {
     return (
         <div className={style.actWrapper}>
-        <p className={style.name}>{props.name}</p>
-
+            <p className={style.name}>{props.name}</p>
         </div>
     )
 }

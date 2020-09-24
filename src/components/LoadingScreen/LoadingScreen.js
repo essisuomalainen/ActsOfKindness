@@ -15,7 +15,7 @@ function LoadingMessage() {
           <img
           className={style.logo}
           id="logo"
-          src={require("../../assets/LOGO.svg")}
+          src={require("../../assets/logoNew.svg")}
           alt="logo"
     
           />
@@ -39,7 +39,7 @@ function LoadingScreen(WrappedComponent) {
         this.setState({
           loading: false
         });
-      }, 5000);
+      }, 4000);
     }
 
     render() {

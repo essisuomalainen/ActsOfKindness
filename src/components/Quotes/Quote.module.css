@@ -5,7 +5,7 @@
     background: #5F474F;
     display: grid;
     grid-template-columns: 10vw 1fr 10vw;
-    grid-template-rows: 10vh 20vh 50vh 15vh;
+    grid-template-rows: 10vh 25vh 50vh 15vh;
 }
 .quoteWrapper {
     grid-column-start: 2;
@@ -16,6 +16,11 @@
     border-radius: 11px;
     padding: 15px;
     background: #E8E8B6;
+    background-image: url('../../assets/backgroundImg.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: revert;
     box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.27);
 }
 
@@ -39,14 +44,7 @@ text-align: center;
 color: #302C2C;
 }
 
-.timerText {
-grid-column-start: 2;
-grid-row-start: 2;
-grid-row-end: 2;
-align-self: center;
-justify-self: center;
-color: #F9EFEF;
-}
+
 
 .timer {
 grid-column-start: 2;

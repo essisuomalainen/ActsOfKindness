@@ -24,18 +24,17 @@ function App() {
  
   
   return (
-    
     <div className={style.app}>
       <div className={style.header}>
         <Header />
       </div>
 
       <div className={style.actionsWrapper}>
-        <div className={style.environment} onClick={() => clickHandler('Environment')} ><Act name="Environment" />
-        </div> 
+        <div className={style.environment} onClick={() => clickHandler('Environment')} ><Act name="Environment" /></div> 
         <div className={style.others} onClick={() => clickHandler('Others')}><Act name="Others" /></div> 
         <div className={style.myself} onClick={() => clickHandler('Myself')}><Act name="Myself" /></div> 
-        </div>
+      </div>
+
       <div className={style.quote}>
         {showQuote ? <Quote clickHandler={clickHandler} /> : null}
       </div>

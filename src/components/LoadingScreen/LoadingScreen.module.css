@@ -25,9 +25,7 @@
     color: white;
     font-style: normal;
     font-weight: normal;
-    letter-spacing: 0.095em;
-    
-    
+    letter-spacing: 0.095em;   
 }
 
 .logo {
@@ -38,20 +36,6 @@
     animation-direction: alternate;
 }
 
-
-/* @keyframes logo {
-    0%   {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0.5;
-    }
-
-    100% {
-        opacity: 1;
-    }
-  } */
 
   @keyframes logo {
       0% {
